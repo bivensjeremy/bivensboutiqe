@@ -8,7 +8,7 @@ export const apparelCategories = [
         id: 1,
         image: shirtIMG,
         title: 'Shirts',
-        slug: 'shirt'
+        slug: 'shirts'
     },
     {
         id: 2,
@@ -26,6 +26,6 @@ export const apparelCategories = [
         id: 4,
         image: gameIMG,
         title: 'Games',
-        slug: 'video-game'
+        slug: 'video-games'
     },
 ]
