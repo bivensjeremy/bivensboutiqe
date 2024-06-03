@@ -18,21 +18,32 @@ const PaginationComp = ({ paginationData }) => {
     
     const handleChange = (e) => {
         setCurrentPage(e.target.value)
+        console.log(e.target.value)
     }
 
     for (let i = 0; i < paginationData.total_pages; i++) {
         paginationButton.push( 
-            <button
+            <input 
                 key={i + 1}
-                value={i + 1}
+                className="btn btn-square hover:btn-primary" 
+                type="radio" 
+                name="options" 
+                aria-label={i + 1}
                 onClick={handleChange}
-                className={`
-                    btn
-                    btn-square
-                    hover:btn-primary
-                    ${currentPage === i + 1 ? 'btn-primary' : null }
-                `}
-            >{i+1}</button>
+                value={i + 1}
+            />
+            // <button
+            //     key={i + 1}
+            //     value={i + 1}
+            //     onClick={handleChange}
+            //     className={`
+            //         btn
+            //         btn-square
+            //         hover:btn-primary
+            //         active:btn-warning
+            //         ${currentPage === (i + 1) ? 'btn-primary' : 'btn-error' }
+            //     `}
+            // >{i+1}</button>
         )
     }
     return (
