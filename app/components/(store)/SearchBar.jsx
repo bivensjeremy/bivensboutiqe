@@ -21,7 +21,7 @@ export default function SearchBar({storeNotAvailable}) {
     }, [searchQuery])
 
     return (
-        <div className="relative flex flex-1 flex-shrink-0 m-auto w-full sm:w-2/3">
+        <div className="relative flex flex-1 flex-shrink-0 m-auto w-full sm:w-2/3 p-3">
             <label className="input input-bordered input-secondary w-full rounded-full flex items-center gap-2 ">
                 
                 <IoSearch className='pointer-events-none flex-shrink-0'/>

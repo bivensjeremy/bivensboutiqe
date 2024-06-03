@@ -2,7 +2,7 @@ export const faqData = [
     {
         id: 1,
         question: "Aren't you a web developer? Is this a real store?",
-        answer: "No, this is not a real store. Unlike prior builds, this one is only a template for my portfolio."
+        answer: "Yes. Though, it is intended as a portfolio project, it is a functioning store."
     },
     {
         id: 2,

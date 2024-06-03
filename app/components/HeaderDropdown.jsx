@@ -9,7 +9,7 @@ const HeaderDropdown = () => {
                 <ImMenu className="w-5 h-5 text-neutral" />
             </div>
 
-            <ul tabIndex={0} className="dropdown-content z-[1] menu shadow bg-base-100 rounded-box w-56">
+            <ul tabIndex={0} className="dropdown-content z-[1] menu shadow bg-base-100 text-accent rounded-box w-56">
                 {navigationLinks.map(({ name, link }) => (
                     <li key={name}>
                         <Link href={link}>{name}</Link>

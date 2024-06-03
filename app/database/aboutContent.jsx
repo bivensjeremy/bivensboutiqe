@@ -2,12 +2,12 @@ export const aboutContent = [
     {
         id: 1,
         header: 'The Website',
-        content: 'No, this is not a functional store. The inventory is made up of real clothes I own, but the payment system will not charge you. It is all a test environment to allow you to explore the website without the fear of making a crappy purchase.'
+        content: 'Yes, this is functional e-commerce store. The inventory is made up of real clothes I own, and the payment system is managed by Commerce JS. Although I have build a custom payment UI in past projects, I opted to stop at the checkout UI and allow Commerce JS to handle the actual transaction management.'
     },
     {
         id: 2,
         header: 'The Project',
-        content: 'I am a web developer.  This website is a second rebuild of a project I created a few while back. This build uses Next 13 and Tailwind. For those who have viewed by portfolio and GitHub, you will notice I initially created this same shop using vanilla React. Since then, I have learned a lot more and wanted to update the site with a more modern feel and added functionality. It is built using Next JS, Material UI, Commerce JS and Stripe along with a host of dependencies.'
+        content: 'I am a web developer.  This website is a fourth rebuild of an e-commerce project I created a few while back. This build uses Next 13 and Tailwind. If you have viewed my past projects, you will notice I created this project and redesigned it over time as I perfected my work. This one is built using NextJS, Tailwind, CommerceJS, and DaisyUI for styling.'
     },
     {
         id: 3,

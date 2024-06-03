@@ -8,7 +8,7 @@ const Banner = ({ title }) => {
 
     return (
         <div className="hero bg-secondary h-60 overflow-hidden">
-            <div className="hero-content absolute drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
+            <div className="hero-content mt-12 absolute drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
                 <Tagline text={bannerTitle} />
             </div>
 

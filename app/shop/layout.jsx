@@ -7,7 +7,7 @@ const layout = ({children}) => {
             <Banner />
             
             <section className="bg-neutral text-foreground">
-                <div className="p-3 sm:p-10 m-auto text-justify">
+                <div className="sm:p-10 m-auto text-justify">
                     <Suspense fallback={
                         <StoreSuspense />
                     }>

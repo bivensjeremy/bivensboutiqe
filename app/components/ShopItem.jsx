@@ -4,7 +4,7 @@ import AddToCartButton from "./(store)/AddToCartButton";
 
 const ShopItem = ({ props }) => {
     return (
-        <div className="card bg-base-100 shadow-xl w-1/2 sm:w-72 rounded-none sm:rounded-lg hover:bg-secondary/20 duration-300">
+        <div className="card bg-base-100 sm:shadow-xl w-1/2 sm:w-72 rounded-none sm:rounded-lg hover:bg-secondary/20 duration-300">
             <Link href={`/shop/item/${props.id}`} className="card-body p-4">
                 <div className="relative h-60 w-full rounded-md p-3 m-auto overflow-hidden">
                     <Image
